@@ -1,0 +1,550 @@
+.maintool {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.Admin {
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+}
+
+.Admin-inside {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Admin-V {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.Admin-users {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-table {
+    width: 60%;
+}
+
+.Admin-div1 {
+    width: 30%;
+    height: 10vh;
+    background-color: rgb(126, 20, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.Admin-div1:hover {
+    background-color: rgba(74, 6, 134, 0.969);
+}
+
+.Admin-div1 p {
+    color: white;
+    margin: 0;
+    cursor: default;
+}
+
+.Admin-div2 {
+    width: 30%;
+    height: 10vh;
+    background-color: rgb(68, 68, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Admin-div2:hover {
+    background-color: rgb(24, 24, 195);
+}
+
+.Admin-div2 p {
+    display: flex;
+    justify-self: center;
+    color: white;
+    margin: 0;
+    cursor: default;
+}
+
+@media (max-width: 768px) {
+    .Admin {
+        margin-top: 30vh;
+    }
+    .Admin-inside {
+        display: block;
+    }
+    .Admin-div1 {
+        margin: auto;
+        width: 80vw;
+        height: 15vh;
+        border-radius: 0 !important;
+        border-top-left-radius: 10px !important;
+        border-top-right-radius: 10px !important;
+    }
+    .Admin-div2 {
+        margin: auto;
+        width: 80vw;
+        height: 15vh;
+        border-radius: 0 !important;
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+    }
+    .Admin-input {
+        width: 70% !important;
+        margin: auto;
+    }
+    .Admin-input input {
+        width: 100%;
+    }
+    .permissionBtn{
+        margin: auto;
+        width: 70% !important;
+        height: 50px;
+    }
+    .permission-backBtn{
+        margin: auto;
+        width: 70% !important;
+        height: 50px;
+    }
+    .search_condition {
+        width: 81vw !important;
+        margin-top: 5vh !important;
+    }
+    .search input {
+        width: 81vw !important;
+        height: 45px !important;
+    }
+    .searchBtn div {
+        width: 81vw !important;
+        margin-top: 0 !important;
+        height: 45px !important;
+    }
+    .sale {
+        width: 81vw !important;
+        margin-top: 20px !important;
+        height: 45px !important;    
+    }
+    .sale div {
+        width: 27vw !important;
+        height: 45px !important;
+    }
+    .status {
+        width: 81vw !important;
+    }
+    .status_div {
+        margin-top: 5px !important;
+    }
+    .status_div span{
+        font-size: 13px !important;
+    }
+    .status_div input{
+        font-size: 8px !important;
+    }
+    .status_div:first-child {
+        margin-top: 10px !important;
+        font-size: 15px !important;
+    }
+    .order {
+        width: 81vw !important;
+    }
+    .order_label {
+        margin-top: 10px !important;
+        font-size: 15px !important;
+    }
+    .order_div div {
+        width: 25% !important;
+        font-size: 13px !important;
+        height: 45px !important;
+    }
+    .order_div {
+        margin-top: 10px !important;
+        height: 45px !important;
+    }
+}
+
+.Admin-input {
+    position: relative;
+    width: 20%;
+}
+
+.Admin-input input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.permissionBtn {
+    width: 20%;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: default;
+}
+
+.permission-backBtn {
+    width: 20%;
+    height: 50px;
+    background-color: rgb(107, 107, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: default;
+}
+
+.search_condition {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 60px;
+    border: 1px groove gainsboro;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.searchBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.searchBtn div {
+    font-size: 20px;
+    border: 1px groove gainsboro;
+    border-radius: 10px;
+    width: 30vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: gainsboro;
+    color: rgb(93, 93, 93);
+    cursor: default;
+}
+
+.searchBtn div:hover {
+    background-color: gray;
+    color: white;
+}
+
+.sale {
+    margin: auto;
+    width: 30vw;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove gainsboro;
+    border-radius: 10px;
+}
+
+.sale div {
+    border: 1px groove gainsboro;
+    width: 10vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.sale div:hover {
+    background-color: gainsboro;
+    color: white;
+}
+
+.sale div:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sale div:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.status {
+    width: 30vw;
+    margin: auto;
+}
+
+.price_range {
+    width: 30vw;
+    margin: auto;
+}
+
+.price_rangeLavel {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.price_range_input {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.price_range_input input {
+    width: 45%;
+    height: 40px;
+    border: 1px groove gainsboro;
+    border-radius: 5px;
+}
+
+.price_range_input input:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .price_range{
+        width: 100% !important;
+    }
+    .price_rangeLavel {
+        font-size: 15px !important;
+    }
+}
+
+.status_div {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.status_div span {
+    margin-left: 10px;
+}
+
+.status_div input {
+    width: 17px;
+    height: 17px;
+}
+
+.order {
+    width: 30vw;
+    margin: auto;
+}
+
+.order_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px groove gainsboro;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.order_div div:hover {
+    background-color: gainsboro;
+    color: white;
+}
+
+.order_div div {
+    border: 1px groove gainsboro;
+    width: 7.5vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.order_div div:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.order_div div:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search_result {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.store_name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store_name span {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(232, 232, 232);
+    color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    border: 1px groove gainsboro;
+}
+
+.store_name span:first-child {
+    border-top-left-radius: 5px;
+}
+
+.store_name span:last-child {
+    border-top-right-radius: 5px;
+}
+
+.product_content {
+    width: 100%;
+    height: auto;
+}
+
+.product {
+    width: 100%;
+    height: 15%;
+    border: 1px groove gainsboro;
+    padding: 1vw;
+}
+
+.product a{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.product_image {
+    width: 15%;
+    height: 15%;
+    border-right: 1px groove gainsboro;
+}
+
+.product_name {
+    width: 70%;
+    height: 15%;
+    padding-left: 3vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-right: 1px groove gainsboro;
+}
+
+.product_name p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.product_price {
+    height: 15%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .Store {
+        width: 90% !important;
+        margin-top: 15vw !important;
+    }
+    .Store a{
+        width: 80vw !important;
+    }
+    .Store a div{
+        width: 80vw !important;
+        height: 15vw !important;
+    }
+    .search_result {
+        width: 100% !important;
+        margin-top: 5vh !important;
+    }
+    .store_name span {
+        width: 25% !important;
+        height: 30px !important;
+        font-size: 10px !important;
+    }
+    .product_price {
+        font-size: 10px !important;
+    }
+    .product_name {
+        font-size: 10px !important;
+    }
+}
+
+.Store {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 10vw;
+    border-radius: 10px;
+}
+
+.Store a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 20vw;
+    margin: auto;
+}
+
+.Store a div{
+    width: 20vw;
+    height: 3vw;
+    background-color:grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px groove gainsboro;
+    cursor: default;
+}
+.Store a:first-child div{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Store a:last-child div{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
